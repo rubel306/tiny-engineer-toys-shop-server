@@ -3,12 +3,12 @@ const cors = require("cors");
 require("dotenv").config();
 const port = process.env.PORT || 5000;
 const app = express();
-const products = require("./data/data.json");
+const products = require("./data/products.json");
 
 app.use(express.json());
 app.use(cors());
 
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_pass}@cluster0.3cydldd.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -25,18 +25,36 @@ async function run() {
     const categoriesToyCollection = client
       .db("toyDb")
       .collection("categoriesProducts");
+    const productsCollection = client.db("toyDb").collection("products");
 
-    //get categoris toys
-    app.get("/cattoys", async (req, res) => {
-      const cursor = categoriesToyCollection.find();
+    //get categoris toys //for home page
+    app.get("/toys", async (req, res) => {
+      const cursor = productsCollection.find();
       const result = await cursor.toArray();
       res.send(result);
     });
 
-    //get local products
-    app.get("/products", (req, res) => {
-      res.send(products);
+    //get one item from the db //for home page
+    app.get("/toys/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await productsCollection.findOne(query);
+      res.send(result);
     });
+
+    //get local products
+    // app.get("/products", async (req, res) => {
+    //   const cursor = productsCollection.find();
+    //   const result = await cursor.toArray();
+    //   res.send(result);
+    // });
+    // app.get("/products/:id", async (req, res) => {
+    //   const id = req.params.id;
+    //   const query = { _id: new ObjectId(id) };
+    //   const result = await categoriesToyCollection.findOne(query);
+    //   res.send(result);
+    //   console.log(id);
+    // });
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });

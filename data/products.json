@@ -1,0 +1,158 @@
+[
+    {
+      "picture": "https://m.media-amazon.com/images/I/81DH3b-l9tL._AC_SX679_.jpg",
+      "name": "Architectural Wonder Blocks",
+      "seller": {
+        "name": "Seller 1",
+        "email": "seller1@example.com"
+      },
+      "subCategory": "Architectural Blocks",
+      "price": 29.99,
+      "rating": 4.7,
+      "quantity": 100,
+      "description": "EDUCATIONAL TOY - Never too early to start developing kids' creativity. Children can acquire a strong sense of color, structures, geometrical shapes including 3D forms, numbers counts, & architectural design at an early age. No limitations, scalable to build as big as desired by adding more pieces to create the masterpiece. The 120pcs bristle shape building block can build more than 20 creative designs. Bristle shape block construction toys have different add-on pieces to offer open-ended"
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/91rLhUOIBWL._AC_SX679_.jpg",
+      "name": "Creative Castle Set",
+      "seller": {
+        "name": "Seller 2",
+        "email": "seller2@example.com"
+      },
+      "subCategory": "Creative Castle Set",
+      "price": 24.99,
+      "rating": 4.5,
+      "quantity": 80,
+      "description": "This LEGO / Disney Princess castle building toy features Belle and Cinderella LEGO mini-dolls, plus all kids need to build different toy castles Features LEGO bricks to build separate castles for Belle and Cinderella, 1 bigger ultimate toy castle or kids' own unqiue castle creations Also includes Lumiere from Disney's Beauty and the Beast, and Cinderella's Gus LEGO figures, plus accessories: mirror, kitchen utensils and more This portable travel toy comes in a handy storage box, which kids can use to keep their bricks tidy and easily take it with them to play on the go"
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/71Gna4qCMhL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "name": "Cityscape Mega Pack",
+      "seller": {
+        "name": "Seller 3",
+        "email": "seller3@example.com"
+      },
+      "subCategory": "Building Blocks:",
+      "price": 39.99,
+      "rating": 4.8,
+      "quantity": 120,
+      "description": "Delve into the world of Harry Potter with this beautifully illustrated jigsaw puzzle edition of Hogwarts 1000 piece jigsaw puzzle will keep you entertained for hours as your Harry Potter scene starts to take shape The remarkable centrepiece of the Harry Potter world comes to life in this exceptional Hogwarts puzzle High quality 1000 piece jigsaw puzzle"
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/81exNkrs+EL._AC_SY300_SX300_.jpg",
+      "name": "Bulldozer Building Kit",
+      "seller": {
+        "name": "Seller 4",
+        "email": "seller4@example.com"
+      },
+      "subCategory": "Construction Vehicles",
+      "price": 19.99,
+      "rating": 4.2,
+      "quantity": 90,
+      "description": "A Builder's Dream: Updated Version of Our Construction Crew Vehicle Building Kit comes with better interconnectivity of pieces, more robust motors and a whopping 240 pieces! Ready to be transformed into 4 diverse construction vehicles - a crane, forklift truck, bulldozer, and dump truck. It's the ultimate playtime companion for boys aged 6+, bringing joy and creativity to their fingertips. Fourfold Fun: Each of these kids' robotic kits includes an easy-to-follow manual with visual steps to create each distinct vehicle. Watch as they enjoy hours of immersive fun, building, deconstructing, and maneuvering their unique creations."
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/71h3ljQd+jL._AC_SY300_SX300_.jpg",
+      "name": "Crane Construction Set",
+      "seller": {
+        "name": "Seller 5",
+        "email": "seller5@example.com"
+      },
+      "subCategory": "Construction Vehicles",
+      "price": 22.99,
+      "rating": 4.6,
+      "quantity": 110,
+      "description": "Remote Control Crane Toy-Our remote control construction crane toy would make the best add-on gift to your child's construction toys. This crane is easy to assemble and will stand 1.28m tall once built. It can rotate at 680 degrees and the hooks can go up and down controlled by the remote control. Their crane also has light and sound functions giving your child a more realistic experience during their play. 2.4G RC Technology-This remote control crane toy comes with a remote control that can be used up to 100 feet in range of the toy crane. The remote control does require 2 AA batteries that are not included in the set."
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/81C-MwZYxTL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "name": "Dump Truck Adventure",
+      "seller": {
+        "name": "Seller 6",
+        "email": "seller6@example.com"
+      },
+      "subCategory": "Construction Vehicles",
+      "price": 14.99,
+      "rating": 4.0,
+      "quantity": 70,
+      "description": "RTR READY TO RUN: (No assembling reuqired), 1:45 scale BATTERIES: Requires AA Batteries (not included) THE IDEAL GIFT: Presentably packed in a beautiful box which adds to your wise choice of a gift FUNCTIONS: Forward, backward, Left, Right, Open Bend Lifts Up and Down, With Lights and Sounds"
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/71UTpINKPyL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "name": "Robot Inventor Lab",
+      "seller": {
+        "name": "Seller 7",
+        "email": "seller7@example.com"
+      },
+      "subCategory": "Engineering Kits",
+      "price": 33.99,
+      "rating": 4.3,
+      "quantity": 95,
+      "description": "Great for pretending you’re in a sci-fi movie this cyborg hand certainly won’t cy-bore you! Great for pretending you’re in a sci-fi movie – this cyborg hand certainly won’t cy-bore you!Great for pretending you’re in a sci-fi movie – this cyborg hand certainly won’t cy-bore you!"
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/71mn6IBQ0hL._AC_SX679_.jpg",
+      "name": "Bridge Engineering Challenge",
+      "seller": {
+        "name": "Seller 8",
+        "email": "seller8@example.com"
+      },
+      "subCategory": "Engineering Kits",
+      "price": 25.99,
+      "rating": 4.5,
+      "quantity": 75,
+      "description": "There are so many ways children play, from pretend play to creative play, to object play and more. Each helps children learn as they grow. For over 35 years Learning Resources has helped children love to learn about themselves and their world through hands-on discovery and play. We make toys that spark their imaginations, encourage exploration, and inspire discovery. When the toy you choose is from Learning Resources, you're helping your child build who they will become. Our educational toys and games are created to spark curiosity and discovery and inspire a lifelong love of learning."
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/61+53POSdLL._AC_SY300_SX300_.jpg",
+      "name": "Wind Turbine Science Kit",
+      "seller": {
+        "name": "Seller 9",
+        "email": "seller9@example.com"
+      },
+      "subCategory": "Engineering Kits",
+      "price": 29.99,
+      "rating": 4.7,
+      "quantity": 85,
+      "description": "The DIY power generation model uses ecological, non-toxic, non-polluting wooden materials, which is safe to use and will not cause any harm to children. The DIY power generation model uses ecological, non-toxic, non-polluting wooden materials, which is safe to use and will not cause any harm to children. The DIY power generation model uses ecological, non-toxic, non-polluting wooden materials, which is safe to use and will not cause any harm to children."
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/91OqLvN6UNL._AC_SX679_.jpg",
+      "name": "Skyscraper Construction Set",
+      "seller": {
+        "name": "Seller 10",
+        "email": "seller10@example.com"
+      },
+      "subCategory": "Building Structures",
+      "price": 19.99,
+      "rating": 4.4,
+      "quantity": 105,
+      "description": "Kids aged 9+ can have a fun adventure in a city full of life with this LEGO Creator 3in1 model building set featuring the choice of 3 models to build Kids aged 9+ can have a fun adventure in a city full of life with this LEGO Creator 3in1 model building set featuring the choice of 3 models to build Kids aged 9+ can have a fun adventure in a city full of life with this LEGO Creator 3in1 model building set featuring the choice of 3 models to build"
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/51YY+ch3tyL._AC_.jpg",
+      "name": "DIY Airplane Model Kit",
+      "seller": {
+        "name": "Seller 11",
+        "email": "seller11@example.com"
+      },
+      "subCategory": "Building Structures",
+      "price": 27.99,
+      "rating": 4.6,
+      "quantity": 125,
+      "description": "These Airplane toys have two flying mode--Glider mode and reversal mode.There are two holds in the planes tail. Insert the small wing to the below hold,the plane will fly in Glider mode.Insert small wing to the upper hold,Plane will fly in reversal mode."
+    },
+    {
+      "picture": "https://m.media-amazon.com/images/I/91TrQ4kzCiL._AC_SX679_.jpg",
+      "name": "Helicopter Design Lab",
+      "seller": {
+        "name": "Seller 12",
+        "email": "seller12@example.com"
+      },
+      "subCategory": "Engineering toys",
+      "price": 16.99,
+      "rating": 4.1,
+      "quantity": 65,
+      "description": "Made from high quality materials. A game designed for children between the ages of 8 to 12 year and develop memory logical sense. The box contain in tools and reagents guide. Made in Italy. Made from high quality materials. A game designed for children between the ages of 8 to 12 year and develop memory logical sense. The box contain in tools and reagents guide. Made in Italy."
+    }
+]
