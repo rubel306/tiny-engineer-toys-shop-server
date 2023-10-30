@@ -52,6 +52,24 @@ async function run() {
       res.send(newToy);
     });
 
+    //get user added toys
+    // app.get("/products", async (req, res) => {
+    //   const cursor = usersProductCollection.find();
+    //   const result = await cursor.toArray();
+    //   res.send(result);
+    // });
+
+    //get products based one user email
+    app.get("/products", async (req, res) => {
+      let query = {};
+      if (req.query?.email) {
+        query = { sellerEmail: req.query.email };
+      }
+      const result = await usersProductCollection.find(query).toArray();
+      res.send(result);
+      console.log(req.query?.email);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
