@@ -26,6 +26,9 @@ async function run() {
       .db("toyDb")
       .collection("categoriesProducts");
     const productsCollection = client.db("toyDb").collection("products");
+    const usersProductCollection = client
+      .db("toyDb")
+      .collection("usersProducts");
 
     //get categoris toys //for home page
     app.get("/toys", async (req, res) => {
@@ -42,19 +45,12 @@ async function run() {
       res.send(result);
     });
 
-    //get local products
-    // app.get("/products", async (req, res) => {
-    //   const cursor = productsCollection.find();
-    //   const result = await cursor.toArray();
-    //   res.send(result);
-    // });
-    // app.get("/products/:id", async (req, res) => {
-    //   const id = req.params.id;
-    //   const query = { _id: new ObjectId(id) };
-    //   const result = await categoriesToyCollection.findOne(query);
-    //   res.send(result);
-    //   console.log(id);
-    // });
+    //add a toy by post method
+    app.post("/addToy", async (req, res) => {
+      const addToy = req.body;
+      const newToy = await usersProductCollection.insertOne(addToy);
+      res.send(newToy);
+    });
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
