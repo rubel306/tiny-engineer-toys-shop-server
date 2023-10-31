@@ -52,12 +52,13 @@ async function run() {
       res.send(newToy);
     });
 
-    //get user added toys
-    // app.get("/products", async (req, res) => {
-    //   const cursor = usersProductCollection.find();
-    //   const result = await cursor.toArray();
-    //   res.send(result);
-    // });
+    //get one user product for update page
+    app.get("/products/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) };
+      const result = await usersProductCollection.findOne(filter);
+      res.send(result);
+    });
 
     //get products based one user email
     app.get("/products", async (req, res) => {
@@ -67,7 +68,33 @@ async function run() {
       }
       const result = await usersProductCollection.find(query).toArray();
       res.send(result);
-      console.log(req.query?.email);
+    });
+
+    //put method for update a toy
+    app.put("/update/:id", async (req, res) => {
+      const id = req.params.id;
+      const updatedToyInfo = req.body;
+      const query = { _id: new ObjectId(id) };
+      const options = { upsert: true };
+      const updateToy = {
+        $set: {
+          name: updatedToyInfo.name,
+          sellerName: updatedToyInfo.sellerName,
+          sellerEmail: updatedToyInfo.sellerEmail,
+          subCategory: updatedToyInfo.subCategory,
+          price: updatedToyInfo.price,
+          rating: updatedToyInfo.rating,
+          quantity: updatedToyInfo.quantity,
+          description: updatedToyInfo.description,
+          image: updatedToyInfo.image,
+        },
+      };
+      const result = await usersProductCollection.updateOne(
+        query,
+        updateToy,
+        options
+      );
+      res.send(result);
     });
 
     //delete products
